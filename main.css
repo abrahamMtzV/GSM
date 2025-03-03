@@ -23,6 +23,19 @@ body{
     font-weight: bold;
 }
 
+.logo-container img {
+    max-height: 100px; /* Ajusta este valor según necesites */
+    width: auto; /* Mantiene la proporción */
+    object-fit: contain; /* Evita recortes */
+}
+
+.logo-container{
+    padding-left: 4%;
+}
+#acroLogo{
+    max-width: 90%;
+}
+
 .custom-img-slider{
     width: 40%;
     height: auto;
@@ -32,6 +45,26 @@ body{
     border-radius: 10px;
     border: #fa0000;
 }
+
+.custom-section {
+    padding: 60px 0;
+}
+.custom-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+.custom-icon {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
 /* Ajustes para pantallas pequeñas (móviles) */
 @media (max-width: 900px) {
     .custom-img-slider {

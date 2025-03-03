@@ -10,15 +10,14 @@
   </head>
   <body>
     <!--ENCABEZADO-->
-    <header class="container-fluid d-flex justify-content-center" style="background-color: #084cac;">
-        <p class="text-white mb-0 p-0 fs-5" style=" font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> GRUPO SALAZAR MAPA </p>
+    <header class="container-fluid d-flex justify-content-end" style="background-color: #084cac;">
+        <p class="text-white mb-0 p-0 fs-8 text-dark" style=" font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: right;"> Contactanos (+52 81 1189 2030) </p>
     </header>
-
 
     <nav class="navbar navbar-expand-lg bg-light p-4 nav-underline" id="menu">
         <div class="container-fluid">
           <a class="navbar-brand " href="index.html">
-            <span class="text-danger fs-2 fw-bold">GSM</span>
+            <span class="text-danger fs-2 fw-bold">GSM | <span class="fs-6 text-secondary">GRUPO SALAZAR MAPA</span></span>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,24 +29,84 @@
                 <a class="nav-link active" style="font-family: Raleway; color:#084cac" aria-current="page" href="#menu">Inicio</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" style="font-family: Raleway;" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" style="font-family: Raleway;" href="#nosotros">Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" style="font-family: Raleway;" href="#contacto">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <p class="nav-link" style="font-family: Raleway; color:darkgrey; font-weight: bold; font-size:14pt;">Grupo Salazar Mapa</p>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
+
+
+      <!-- Sección de logos -->
+
+
+<!--LOGOSSSSSSSSSSSSSSSS-->
+<section class="logo-container">
+  <div class="container mx-5">
+      <div class="row justify-content-center">
+          <div class="col-6 col-md-2">
+              <img src="img/logo1.png" alt="Logo 1" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-4">
+              <img src="img/acro.png" alt="Logo 2" class="img-fluid opacity-50" id="acroLogo">
+          </div>
+          <div class="col-6 col-md-3">
+              <img src="img/acmLogo.png" alt="Logo 3" class="img-fluid">
+          </div>
+          <div class="col-6 col-md-3">
+              <img src="img/liqesaLogo.png" alt="Logo 4" class="img-fluid">
+          </div>
+      </div>
+  </div>
+</section>
+<!--LOGOSSSSSSSSSSSSSSSS-->
+
+
+      <section class="custom-section text-center">
+        <div class="container">
+            <h2 class="mb-5">Nuestros Servicios</h2>
+            <div class="row">
+                <!-- AGENCIA ADUANAL -->
+                <div class="col-md-4">
+                    <div class="custom-card">
+                        <i class="fas fa-truck-loading custom-icon"></i>
+                        <h4 class="text-primary">Agencia Aduanal</h4>
+                        <p>Servicios de agencia aduanal por Laredo y Colombia, destacando la prontitud y experiencia en diversas industrias.</p>
+                    </div>
+                </div>
+    
+                <!-- ALMACENAJE -->
+                <div class="col-md-4">
+                    <div class="custom-card">
+                        <i class="fas fa-warehouse custom-icon"></i>
+                        <h4 class="text-primary">Almacenaje (Laredo, TX)</h4>
+                        <p>Servicio de almacenaje en Laredo, TX, con cuatro ubicaciones, incluyendo yarda y techadas para resguardo y cross dock.</p>
+                    </div>
+                </div>
+    
+                <!-- ASEGURANZA -->
+                <div class="col-md-4">
+                    <div class="custom-card">
+                        <i class="fas fa-shield-alt custom-icon"></i>
+                        <h4 class="text-primary">Aseguranza</h4>
+                        <p>Servicios de aseguranza para mercancías, con opciones de cobertura spot o recurrentes mediante nuestros partners.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
     <!--  SECCIÓN DE SERVICIOS -->
-    <div class="services-section">
+    <div class="services-section" id="servicios">
       <div class="services-content container">
-          <h2 class="services-title">NUESTROS SERVICIOS</h2>
-          <span class="service-desc">Somos un grupo de 4 empresas dedicadas a:</span>
+          <h2 class="services-title" >Somos un grupo de 4 empresas dedicadas a:</h2>
           <p></p>
           <ul class="list-unstyled">
               <li class="mb-3"><span class="service-item">🚛 Transporte Nacional</span><br>
