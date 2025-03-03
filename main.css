@@ -93,6 +93,19 @@ body{
     margin-bottom: 20px;
 }
 
+
+.hidden {
+    opacity: 0;
+    transform: translateY(-90px); /* Viene desde arriba */
+    transition: opacity 1s ease-out, transform 2s ease-out; /* Más lento */
+}
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
 /* Ajustes para pantallas pequeñas (móviles) */
 @media (max-width: 900px) {
     .custom-img-slider {
