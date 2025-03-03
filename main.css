@@ -22,19 +22,35 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
+.logo-container {
+    padding: 20px 0;
+    background: #fff; /* Fondo blanco para contrastar */
+}
 
-.logo-container img {
-    max-height: 100px; /* Ajusta este valor según necesites */
+.logo-img {
+    max-height: 80px; /* Ajusta la altura de los logos */
     width: auto; /* Mantiene la proporción */
     object-fit: contain; /* Evita recortes */
+    transition: transform 0.3s ease-in-out;
 }
 
-.logo-container{
-    padding-left: 4%;
+/* Efecto al pasar el mouse */
+.logo-img:hover {
+    transform: scale(1.1);
 }
-#acroLogo{
-    max-width: 90%;
+
+/* Ajustes específicos para móviles */
+@media (max-width: 768px) {
+    .logo-container .col-6 {
+        flex: 0 0 50%; /* Dos logos por fila en móviles */
+        max-width: 50%;
+        padding: 10px;
+    }
+    .logo-img {
+        max-height: 60px; /* Tamaño menor en móviles */
+    }
 }
+
 
 .custom-img-slider{
     width: 40%;
